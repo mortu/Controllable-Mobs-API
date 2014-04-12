@@ -4,15 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Logger;
 
-import net.minecraft.server.v1_7_R1.EntityInsentient;
-import net.minecraft.server.v1_7_R1.EntityLiving;
+import net.minecraft.server.v1_7_R3.EntityInsentient;
+import net.minecraft.server.v1_7_R3.EntityLiving;
 
-import org.bukkit.craftbukkit.v1_7_R1.entity.CraftLivingEntity;
+import org.bukkit.craftbukkit.v1_7_R3.entity.CraftLivingEntity;
 import org.bukkit.entity.LivingEntity;
-import org.bukkit.plugin.Plugin;
-
 import de.ntcomputer.minecraft.controllablemobs.implementation.CraftControllableMob;
-import de.ntcomputer.minecraft.controllablemobs.implementation.nativeinterfaces.NativeInterfaces;
 
 /**
  * This is a static class which lets you retrieve instances of
